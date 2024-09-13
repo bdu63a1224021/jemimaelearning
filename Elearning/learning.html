@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <h1> ✯<u> Finland </u> ✯
+    <br>World's  No.1 Country in Education System</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Finland flag -->
+        <div class="a">
+            <div class="b">
+                <div class="c"></div>
+            </div>
+        </div>
+        <center>
+        <h2> Finland in Northern-European Nation bordering Sweden, Norway& Russia. Its Capital is Helsinki. Finland is 8th Expensive Country in Europe.
+     And yes, it ranks #1 globally in Education </h2>
+     </center>
+       <br>
+       <br> 
+      <button class="button">Education System</button>
+        <div class="content">
+    <p>
+      Education in Finland is mostly free of cost. Mostly , all the schools and universities   are handled by Government. If it you are likely to join in  private universities for higher Education , Finland Goverment will offers you Scholarships too
+    </p>
+            </div>
+            <br>
+            <br>
+   <button class="button">Why Finland's Education System is considered as #1</button>   
+    <div class="content">
+        <p>
+        • No Homeworks <br>
+        • Schooling starts at the age of 7 years   & 9 years of Compulasary Education.<br>
+        • School timings are from 9am onwards to 2:30pm<br>
+        •No exams <br>
+        •The only exam in Higher Education is Matriculation Exam at the end of the Schooling , which can be used for applying in Universities for higher Education.
+        </p>
+    </div>     
+    <br>
+    <br>
+    <button class="button">
+        What is the qualification for teachers there ?
+    </button>
+    <div class="content">
+        <p>
+        Teachers should complete Master's Degree for primary Education.
+    <br>    • For High School Education , teachers must have PhD .
+            
+        </p>
+    </div>
+    <br>
+    <br>
+    <button class="button">
+        Number of Working days for schooling in an year
+    </button>
+    <div class="content">
+        <p>
+       Only 180 working Days  
+          </p> 
+        </div>
+       
+        </div>
+        <footer>✯  Farhanaz ✯</footer>
+<script>
+var btn = document.getElementsByClassName("button");
+var i;
+
+for (i = 0; i < btn.length; i++) {
+  btn[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>  
+    </body>
+</html>

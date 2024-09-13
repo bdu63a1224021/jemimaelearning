@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Almendra+SC'); 
+@import url('https://fonts.googleapis.com/css?family=Lobster'); 
+
+body {
+  background:#252525;  
+}
+.a{
+    background-color:#ccc;
+    border:3px solid;
+    padding-left:20%;
+    padding-bottom:20%;
+    padding-right:20%;
+}
+.b{
+    width:340px;
+    height:270px;
+    background-image:linear-gradient(to bottom,white 36.36% ,blue 36.6% ,blue 63.63%, white 63.63%);
+    border:1px solid #000;
+}
+.c{
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(to right, transparent 27.27%, blue 27.27% , blue 44.44%, transparent 44.4%);
+}
+.button {
+  background:blue;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-weight:bold;
+  outline: none;
+  font-size: 16px;
+  box-shadow: 0 2px 5px 0 #ccddff,0 2px 10px 0 #ccddff;
+}
+
+
+.active, .button:hover {
+  background-color:#ccccff ;
+  border-radius:10px;
+  outline:0;
+  
+}
+
+.button:after {
+  content: '⌟';
+  color: #fff;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+button.button {
+ position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  font-weight : bold;
+}
+
+.content {
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+  background-color: #000;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 5px 0 #ccddff,0 2px 10px 0 #ccddff;
+}
+p {
+    border-radius:10px;
+    border:solid 2px #ccddff;
+    background:#000;
+    text-align:center ;
+    color:#fff;
+    font-size:16px;
+    padding:2px;
+}
+.button
+{
+    border-radius:10px;
+    font-family:pacifico;
+    
+}
+h2{
+    color:#ccddff;
+    font-family:Lobster;
+}
+
+ h1{
+    background-image: linear-gradient( 109.6deg,  rgba(119,44,232,0.68) 11.5%, rgba(119,44,232,1) 91.2% );
+    box-shadow:0 0 40px white;
+    width:100%;
+    top:-3.5%;
+    left:-1%;
+    border-radius:5px;  
+    text-align:center;
+    color: #E0FFFF;
+    height:97px;
+    font-size:27px;
+    position:fixed;
+    font-family:Almendra SC;
+    }
+footer{
+    width: 95%;
+    margin-top:10%;
+    margin-left:5%;
+  background-image: linear-gradient( 109.6deg,  rgba(119,44,232,0.68) 11.5%, rgba(119,44,232,1) 91.2% );
+    text-align: center;
+    box-shadow:0 0 40px white;
+    color:#e0ffff;
+    border-radius:5px; 
+    font-weight:bolder ;
+    font-size:30px;
+    font-family: 'Almendra SC', sans-serif;
+}
